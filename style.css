@@ -1,0 +1,461 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+
+}
+
+#container {
+    background-color: rgba(198, 181, 181, 0.2);
+}
+
+/* navbar */
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 10%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    backdrop-filter: blur(50px);
+    z-index: 1;
+
+}
+
+
+
+.home-head {
+    font-size: 50px;
+    color: white;
+}
+
+.sub-head {
+    font-size: 13px;
+    color: white;
+    margin-left: 40%;
+    display: block;
+    width: 100%;
+    /* border: white solid; */
+    margin-top: -2%;
+}
+
+.link-ietms {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.link-ietms:hover {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    border-radius: 10px;
+}
+
+
+/* home */
+#home {
+    background-image: url(./image/background.jpg);
+    background-size: cover;
+    height: 800px;
+    margin-top: 8%;
+    /* border: solid brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.head2 {
+    font-family: "Playwrite CU", cursive;
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+
+
+
+}
+
+.body-content {
+    color: white;
+    text-align: center;
+}
+
+#home>a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* our product */
+/*content  */
+#product {
+    margin: 3% 8%;
+}
+
+.product-head {
+    color: brown;
+    font-family: "Playwrite CU", cursive;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.describtion {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* product */
+
+.product-items {
+    margin-top: 3%;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.items {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.pro-head {
+    font-size: 20px;
+}
+
+.product-content {
+    text-align: center;
+    /* text-align: center; */
+}
+
+.img-item {
+    width: 100%;
+    height: 200px;
+}
+
+.items:hover {
+    transform: scale(1.1);
+}
+
+/* services */
+
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service-items{
+    margin-top: 20px;
+    width:200px ;
+    height: 200px;
+}
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: orange;
+
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-service {
+    width: 100px;
+}
+
+.head-service {
+    color: black;
+}
+
+.service-items:hover {
+    .img {
+        background-color: brown;
+    }
+
+    .head-service {
+        color: brown;
+    }
+
+}
+
+#item2{
+    margin-top: 5%;
+}
+#item1{
+    margin-top: 15%;
+
+}
+#item4{
+    margin-top: 5%;
+}
+#item5{
+    margin-top: 15%;
+
+}
+
+/* news */
+#news {
+    margin: 8%;
+}
+
+.news-content {
+    margin-top: 10%;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* height: 100%; */
+
+}
+
+.news-items {
+    /* margin-bottom: 30px; */
+    width:300px ;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.news-items:hover {
+    transform: scale(1.1);
+}
+
+
+.news-img {
+    width: 100%;
+    height:300px;
+}
+
+.news-head {
+    margin-top: 20px;
+}
+
+.news {
+    text-align: justify;
+}
+
+.news-link {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px;
+}
+
+/* contact */
+#contact {
+    background-color: rgb(193, 145, 145);
+}
+.contact-item{
+    margin: 8% 0px;
+    /* border: solid; */
+    width: 400px;
+    height: 400px;
+}
+
+
+.our-menu>h2 {
+    text-align: left;
+}
+
+.list-item {
+    text-align: left;
+    list-style: none;
+}
+
+.contact-detail,
+.contact-no,
+.post-details {
+    color: white;
+}
+
+.contact-head {
+    color: brown;
+}
+
+.contacts {
+    /* border: solid; */
+    margin: 8%;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post-img {
+    width: 100px;
+    margin: 10px;
+}
+
+/* icons */
+
+.icon-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    /* border: solid; */
+}
+
+.icon {
+    /* to get round border */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 10px; */
+}
+
+.icon:hover {
+    background-image: linear-gradient(to bottom right, white, black);
+}
+
+.brands {
+    color: white;
+    font-size: 30px;
+}
+
+.icon:hover .brands {
+    color: black;
+    animation: rotate 3s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(30deg);
+    }
+
+    60% {
+        transform: rotate(-30deg);
+    }
+
+    80% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+/* responsive */
+
+
+.icons {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+@media (max-width:992px) {
+    nav {
+        padding: 1.3rem 5%;
+
+    }
+}
+
+@media (max-width:1166px) {
+
+    .icons {
+        display: flex;
+    }
+
+    #cancel {
+        display: none;
+    }
+
+    #check:checked~.icons #menu {
+        display: none;
+    }
+
+    #check:checked~.icons #cancel {
+        display: block;
+    }
+
+    .links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: gainsboro;
+        width: 100%;
+        display: none;
+    }
+
+    #check:checked~.links {
+        display: block;
+        height: 15rem;
+    }
+
+    .link-ietms {
+        color: black;
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0px;
+        text-align: center;
+    }
+    .services{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+}
+
